@@ -1,0 +1,24 @@
+---
+title: "Intro"
+format: html
+editor: visual
+author: "Labaly TOURE"
+---
+
+# Importation des librairies
+Ce cours traite de l'analyse spatiale 
+```{r}
+library(sf)
+library(mapview)
+library(tidygeocoder)
+library(osrm)
+library(maptiles)
+```
+
+## Affichage de mes couches
+
+```{r}
+reg <- st_read("sen.gpkg", layer = "region")
+dep <- st_read("sen.gpkg", layer = "departement")
+mapview(dep) + mapview(reg)
+```

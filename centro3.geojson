@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "centro3",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32628" } },
+"features": [
+{ "type": "Feature", "properties": { "NOM": "Thiès", "THEME": "LA", "PAYS": "SN", "Shape_Leng": 214639.850259, "Shape_Area": 1608061803.26 }, "geometry": { "type": "Point", "coordinates": [ 270372.373140820069239, 1634710.965082254027948 ] } },
+{ "type": "Feature", "properties": { "NOM": "Dakar", "THEME": "LA", "PAYS": "SN", "Shape_Leng": 76746.975505599999, "Shape_Area": 78936611.669400007 }, "geometry": { "type": "Point", "coordinates": [ 235103.034508465556428, 1629126.64102092734538 ] } },
+{ "type": "Feature", "properties": { "NOM": "Guédiawaye", "THEME": "LA", "PAYS": "SN", "Shape_Leng": 22653.9664624, "Shape_Area": 13156223.269400001 }, "geometry": { "type": "Point", "coordinates": [ 242314.863555749529041, 1634926.378578729461879 ] } },
+{ "type": "Feature", "properties": { "NOM": "Pikine", "THEME": "LA", "PAYS": "SN", "Shape_Leng": 45953.156391199998, "Shape_Area": 86567186.514699996 }, "geometry": { "type": "Point", "coordinates": [ 247751.403262189298403, 1633885.088200223166496 ] } },
+{ "type": "Feature", "properties": { "NOM": "Rufisque", "THEME": "LA", "PAYS": "SN", "Shape_Leng": 86085.671836199996, "Shape_Area": 356828205.11699998 }, "geometry": { "type": "Point", "coordinates": [ 262616.253486227593385, 1632855.567108118440956 ] } }
+]
+}

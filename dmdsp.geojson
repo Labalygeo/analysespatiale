@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "dmdsp",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32628" } },
+"features": [
+{ "type": "Feature", "properties": { "city": "Diamniadio" }, "geometry": { "type": "Point", "coordinates": [ 330086.004916952806525, 1555730.341271211160347 ] } }
+]
+}

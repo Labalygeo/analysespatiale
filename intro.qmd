@@ -1,0 +1,38 @@
+---
+title: "Examen sur R"
+format: html
+editor: visual
+author: "Labaly"
+---
+
+```{r}
+library(sf)
+library(mapview)
+library(tidygeocoder)
+library(osrm)
+library(maptiles)
+```
+
+
+#Import des librairies
+```{r}
+library(sf)
+library(mapview)
+library(tidygeocoder)
+library(osrm)
+library(maptiles)
+```
+# Ouvrir des couches geospatiales 
+```{r}
+st_layers("sen.gpkg")
+```
+#Ouvrir un geojson
+```{r}
+reg <- st_read("sen.gpkg", layer = "region")
+dep <- st_read("sen.gpkg", layer = "departement")
+```
+# Afficher sur Mapview
+```{r}
+mapview(dep) + mapview(reg)
+```
+
